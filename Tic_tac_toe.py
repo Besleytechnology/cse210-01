@@ -6,7 +6,7 @@ def main():
         make_move(player, board)
         player = next_player(player)
     display_board(board)
-    print("Good game. Thanks for playing!") 
+    print("Game Over. Thanks for playing!") 
 
 def create_board():
     board = []
@@ -51,3 +51,4 @@ def next_player(current):
 
 if __name__ == "__main__":
     main()
+# The game ended thus.
